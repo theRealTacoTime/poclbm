@@ -1,0 +1,779 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: guiminer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-01\n"
+"PO-Revision-Date: 2011-13-13 00:00-0000\n"
+"Last-Translator: Blauwbek <nl-guiminer@hotmail.com>\n"
+"Language-Team: Nederlands\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: guiminer.py:90
+#, python-format
+msgid ""
+"GUIMiner\n"
+"\n"
+"Version: %(version)s\n"
+"\n"
+"GUI by Chris 'Kiv' MacLeod\n"
+"Original poclbm miner by m0mchil\n"
+"Original rpcminer by puddinpop\n"
+"\n"
+"Get the source code or file issues at GitHub:\n"
+"    https://github.com/Kiv/poclbm\n"
+"\n"
+"If you enjoyed this software, support its development\n"
+"by donating to:\n"
+"\n"
+"%(address)s\n"
+"\n"
+"Even a single Bitcoin is appreciated and helps motivate\n"
+"further work on this software.\n"
+msgstr ""
+"GUIMiner\n"
+"\n"
+"Versie: %(version)s\n"
+"\n"
+"GUI gemaakt door Chris 'Kiv' MacLeod\n"
+"Oorspronkelijke poclbm Miner door m0mchil\n"
+"Oorspronkelijke rpcminer door puddinpop\n"
+"\n"
+"Voor de broncode en verdere hulp, zie GitHub:\n"
+"    https://github.com/Kiv/poclbm\n"
+"\n"
+"Overweeg een donatie als dit programma je geholpen heeft\n"
+"Deze kan je naar volgend adres sturen:\n"
+"\n"
+"%(address)s\n"
+"\n"
+"Elke bitcoin wordt gewaardeerd en motiveert\n"
+"tot verdere ontwikkeling.\n"
+"\n"
+"\n"
+"Nederlandse vertaling door:\n"
+"Blauwbek (nl-guiminer@hotmail.com)\n"
+"\n"
+"Steun Blauwbek:\n"
+"1KtyDeGanGyH6ze5FUxxAevNWhGKqsmxoS\n"
+"\n"
+
+#: guiminer.py:111
+msgid "Not started"
+msgstr "Niet gestart"
+
+#: guiminer.py:112
+msgid "Starting..."
+msgstr "Wordt gestart..."
+
+#: guiminer.py:113
+msgid "Stopped"
+msgstr "Gestopt"
+
+#: guiminer.py:114
+msgid "Paused"
+msgstr "Gepauzeerd"
+
+#: guiminer.py:115
+msgid "Start mining!"
+msgstr "Start minen!"
+
+#: guiminer.py:116
+msgid "Stop mining"
+msgstr "Stop met minen"
+
+#: guiminer.py:117
+msgid "Refresh balance"
+msgstr "Vraag saldo op"
+
+#: guiminer.py:118
+msgid "Connection error"
+msgstr "Verbindingsprobleem"
+
+#: guiminer.py:119
+msgid "Username:"
+msgstr "Gebruikersnaam:"
+
+#: guiminer.py:120
+msgid "Password:"
+msgstr "Wachtwoord:"
+
+#: guiminer.py:121
+msgid "Quit this program"
+msgstr "Programma afsluiten"
+
+#: guiminer.py:122
+msgid "Show about dialog"
+msgstr "Over..."
+
+#: guiminer.py:203
+#, python-format
+msgid "%.1f Ghash/s"
+msgstr "%.1f Ghash/s"
+
+#: guiminer.py:205
+#, python-format
+msgid "%.1f Mhash/s"
+msgstr "%.1f Mhash/s"
+
+#: guiminer.py:207
+msgid "Connecting..."
+msgstr "Aan het verbinden..."
+
+#: guiminer.py:209
+#, python-format
+msgid "%d khash/s"
+msgstr "%d khash/s"
+
+#: guiminer.py:233
+#, python-format
+msgid "Requesting balance: %(request)s"
+msgstr "Opvraagt saldo op: %(request)s"
+
+#: guiminer.py:237
+#, python-format
+msgid "Server replied: %(status)s, %(data)s"
+msgstr "Server reageerde met: %(status)s, %(data)s"
+
+#: guiminer.py:304
+msgid "Miner"
+msgstr "Miner"
+
+#: guiminer.py:305
+msgid "Speed"
+msgstr "Snelheid"
+
+#: guiminer.py:306
+msgid "Accepted"
+msgstr "Geaccepteerd"
+
+#: guiminer.py:307
+msgid "Stale"
+msgstr "Verlopen"
+
+#: guiminer.py:308
+msgid "Start/Stop"
+msgstr "Start/Stop"
+
+#: guiminer.py:309
+msgid "Autostart"
+msgstr "Autostart"
+
+#: guiminer.py:393
+msgid "Pause all"
+msgstr "Alles pauzeren"
+
+#: guiminer.py:395
+msgid "Restore"
+msgstr "Herstel"
+
+#: guiminer.py:396
+msgid "Close"
+msgstr "Sluiten"
+
+#: guiminer.py:452
+#, python-format
+msgid "Listener for \"%s\" started"
+msgstr "Miner \"%s\" gestart"
+
+#: guiminer.py:467
+#, python-format
+msgid "Listener for \"%(name)s\": %(line)s"
+msgstr "Miner \"%(name)s\": %(line)s"
+
+#: guiminer.py:470
+#, python-format
+msgid "Listener for \"%s\" shutting down"
+msgstr "Miner \"%s\" sluit af"
+
+#: guiminer.py:516
+msgid "Server:"
+msgstr "Server:"
+
+#: guiminer.py:521
+msgid "Website:"
+msgstr "Website:"
+
+#: guiminer.py:523
+msgid "Ext. Path:"
+msgstr "Ext. Pad:"
+
+#: guiminer.py:525
+msgid "Host:"
+msgstr "Host:"
+
+#: guiminer.py:527
+msgid "Port:"
+msgstr "Port:"
+
+#: guiminer.py:533
+msgid "Device:"
+msgstr "Apparaat:"
+
+#: guiminer.py:534
+msgid "No OpenCL devices"
+msgstr "Geen OpenCL onderdelen"
+
+#: guiminer.py:535
+msgid "Extra flags:"
+msgstr "Extra commando's:"
+
+#: guiminer.py:538
+msgid "CPU Affinity:"
+msgstr "CPU's In gebruik"
+
+#: guiminer.py:541
+msgid "Balance:"
+msgstr "Saldo:"
+
+#: guiminer.py:545
+msgid "Withdraw"
+msgstr "Intrekken"
+
+#: guiminer.py:705
+msgid "Default"
+msgstr "Standaard"
+
+#: guiminer.py:756
+msgid "Start"
+msgstr "Start"
+
+#: guiminer.py:756
+msgid "Stop"
+msgstr "Stop"
+
+#: guiminer.py:772
+msgid "Connection problems"
+msgstr "Verbindingsproblemen"
+
+#: guiminer.py:931
+msgid "Running command: "
+msgstr "Voert uit: "
+
+#: guiminer.py:990
+#, python-format
+msgid "Difficulty 1 hashes: %(nhashes)d %(update_time)s"
+msgstr "Moeilijkheid 1 hashes: %(nhashes)d %(update_time)s"
+
+#: guiminer.py:994
+#, python-format
+msgid "Blocks: %d, "
+msgstr "Blokken: %d, "
+
+#: guiminer.py:997
+#, python-format
+msgid "Shares: %d accepted"
+msgstr "Shares: %d geaccepteerd"
+
+#: guiminer.py:999
+#, python-format
+msgid ", %d stale/invalid"
+msgstr ", %d verlopen/ongeldig"
+
+#: guiminer.py:1021
+#, python-format
+msgid "- last at %s"
+msgstr "- recentste: %s"
+
+#: guiminer.py:1094
+msgid ""
+"Server to connect to. Different servers have different fees and features.\n"
+"Check their websites for full information."
+msgstr ""
+"Server om mee te verbinden. Kosten en mogelijkheden verschillen per server.\n"
+"Kijk op de bijbehorende website voor de volledige informatie"
+
+#: guiminer.py:1095
+msgid "Website of the currently selected server. Click to visit."
+msgstr "Website van de geselecteerde server. Klik om er naar toe te gaan"
+
+#: guiminer.py:1096
+msgid "Available OpenCL devices on your system."
+msgstr "Beschikbare OpenCL apparaten."
+
+#: guiminer.py:1097
+msgid "Host address, without http:// prefix."
+msgstr "Host adres, zonder het http:// voorvoegsel"
+
+#: guiminer.py:1098
+msgid "Server port. This is usually 8332."
+msgstr "Serverport. Dit is normaal gesproken 8332."
+
+#: guiminer.py:1099
+msgid ""
+"The miner's username.\n"
+"May be different than your account username.\n"
+"Example: Kiv.GPU"
+msgstr ""
+"Miner's gebruikersnaam.\n"
+"Kan verschillen van uw accountnaam.\n"
+"Bijvoorbeeld: Blauwbek.GPU"
+
+#: guiminer.py:1100
+msgid ""
+"The miner's password.\n"
+"May be different than your account password."
+msgstr ""
+"Miner's wachtwoord.\n"
+"Kan verschillen van uw account's wachtwoord.\n"
+
+#: guiminer.py:1101
+msgid ""
+"Extra flags to pass to the miner.\n"
+"For Radeon HD 5xxx series use -v -w128 for best results.\n"
+"For other cards consult the forum."
+msgstr ""
+"Extra commando's voor de miner:\n"
+"Radeon HD 5xxx gebruikers gebruik: -v -w128. voor optimale resultaten\n"
+"Kijk voor andere videokaarten op het forum"
+
+#: guiminer.py:1103
+msgid ""
+"CPU cores used for mining.\n"
+"Unchecking some cores can reduce high CPU usage in some systems."
+msgstr ""
+"Aantal cores gebruikt voor minen. \n"
+"Het uitvinken van enkele cores kan het processorgebruik verminderen."
+
+#: guiminer.py:1197 guiminer.py:1291 guiminer.py:1312
+msgid "Auth token rejected by server."
+msgstr "Authenticatie afgewezen door de server."
+
+#: guiminer.py:1215
+#, python-format
+msgid "%s confirmed"
+msgstr "%s bevestigd"
+
+#: guiminer.py:1217
+#, python-format
+msgid ", %s unconfirmed"
+msgstr ", %s onbevestigd"
+
+#: guiminer.py:1219
+msgid "Bad response from server."
+msgstr "Onverwachte reactie van de server."
+
+#: guiminer.py:1295 guiminer.py:1316
+msgid "Withdraw OK"
+msgstr "Intrekken OK"
+
+#: guiminer.py:1486
+msgid "No registration is required - just enter an address and press Start."
+msgstr ""
+"Geen registratie nodig - typ een adres en klik op start."
+
+#: guiminer.py:1488
+msgid "Address:"
+msgstr "Adres:"
+
+#: guiminer.py:1490
+msgid ""
+"Your receiving address for Bitcoins.\n"
+"E.g.: 1A94cjRpaPBMV9ZNWFihB5rTFEeihBALgc"
+msgstr ""
+"Je ontvangadres voor Bitcoins\n"
+"Bijvoorbeeld: 1FVYXH5xuP9w4656hMVdXJvZBSLsQtbxKT"
+
+#: guiminer.py:1506
+msgid ""
+"Your miner username (not your account username).\n"
+"Example: Kiv.GPU"
+msgstr ""
+"Je miner's gebruikersnaam (niet je accountnaam).\n"
+"Bijvoorbeeld: Blauwbek.GPU"
+
+#: guiminer.py:1508 guiminer.py:1529
+msgid "Your miner password (not your account password)."
+msgstr "Je miner's wachtwoord (niet je account's wachtwoord).\n"
+
+#: guiminer.py:1527
+msgid ""
+"Your miner username. \n"
+"Example: kiv123@kiv123"
+msgstr ""
+"Je miner's gebruikersnaam. \n"
+"Bijvoorbeeld: kiv123@kiv123"
+
+#: guiminer.py:1544
+msgid "The e-mail address you registered with."
+msgstr "Het emailadres waarmee je geregistreerd bent."
+
+#: guiminer.py:1545
+msgid "Email:"
+msgstr "Email:"
+
+#: guiminer.py:1560
+msgid "&Rename..."
+msgstr "&Hernoemen..."
+
+#: guiminer.py:1560
+msgid "Rename this miner"
+msgstr "Hernoem deze miner..."
+
+#: guiminer.py:1585
+msgid "&New OpenCL miner..."
+msgstr "&Nieuwe OpenCL miner..."
+
+#: guiminer.py:1585
+msgid "Create a new OpenCL miner (default for ATI cards)"
+msgstr "Creëer een nieuwe OpenCL miner (standaard voor ATI/AMD kaarten)"
+
+#: guiminer.py:1586
+msgid "Create a new Phoenix miner (for some ATI cards)"
+msgstr "Creëer een nieuwe Phonix miner (voor sommige ATI/AMD kaarten)"
+
+#: guiminer.py:1586
+msgid "New Phoenix miner..."
+msgstr "Nieuwe Phoenix miner..."
+
+#: guiminer.py:1587
+msgid "Create a new CUDA miner (for NVIDIA cards)"
+msgstr "Creëer een nieuwe CUDA miner (voor nVidia kaarten)"
+
+#: guiminer.py:1587
+msgid "New CUDA miner..."
+msgstr "Nieuwe CUDA miner..."
+
+#: guiminer.py:1588
+msgid "Create a new Ufasoft miner (for CPUs)"
+msgstr "Creëer een nieuwe Ufasoft miner (voor CPUs)"
+
+#: guiminer.py:1588
+msgid "New Ufasoft CPU miner..."
+msgstr "Nieuwe Ufasoft CPU miner..."
+
+#: guiminer.py:1589
+msgid "Create a new custom miner (requires external program)"
+msgstr "Creëer een nieuwe eigen miner (extern programma nodig)"
+
+#: guiminer.py:1589
+msgid "New &other miner..."
+msgstr "Nieuwe andere miner..."
+
+#: guiminer.py:1590
+msgid "&New miner"
+msgstr "&Nieuwe miner"
+
+#: guiminer.py:1591
+msgid "&Save settings"
+msgstr "&Sla instellingen op"
+
+#: guiminer.py:1591
+msgid "Save your settings"
+msgstr "Instellingen opslaan"
+
+#: guiminer.py:1592
+msgid "&Load settings"
+msgstr "&Laad instellingen"
+
+#: guiminer.py:1592
+msgid "Load stored settings"
+msgstr "Laad opgeslagen instellingen"
+
+#: guiminer.py:1593
+msgid "Quit"
+msgstr "Sluiten"
+
+#: guiminer.py:1594
+msgid "&File"
+msgstr "&Bestand"
+
+#: guiminer.py:1598
+msgid "Show summary"
+msgstr "Weergeef overzicht"
+
+#: guiminer.py:1598
+msgid "Show summary of all miners"
+msgstr "Weergeef overzicht van alle miners"
+
+#: guiminer.py:1599
+msgid "Show console"
+msgstr "Console weergeven"
+
+#: guiminer.py:1599
+msgid "Show console logs"
+msgstr "Console log's weergeven"
+
+#: guiminer.py:1600
+msgid "&View"
+msgstr "&Weergeef"
+
+#: guiminer.py:1604
+msgid "&Create solo password..."
+msgstr "&Creëer een solo wachtwoord..."
+
+#: guiminer.py:1604
+msgid "Configure a user/pass for solo mining"
+msgstr "Creëer een gebruiker/wachtwoord voor solo minen"
+
+#: guiminer.py:1605
+msgid "&Set Bitcoin client path..."
+msgstr "&Stel Bitcoin client locatie in..."
+
+#: guiminer.py:1605
+msgid "Set the location of the official Bitcoin client"
+msgstr "Stel locatie officiële Bitcoin client in"
+
+#: guiminer.py:1606
+msgid "&Launch Bitcoin client as server"
+msgstr "&Start Bitcoin client als server"
+
+#: guiminer.py:1606
+msgid "Launch the official Bitcoin client as a server for solo mining"
+msgstr "Start de officiele Bitcoin client als een server voor solo mining"
+
+#: guiminer.py:1607
+msgid "&Solo utilities"
+msgstr "&Solo functies"
+
+#: guiminer.py:1611
+msgid "Start &minimized"
+msgstr "Start &geminimaliseerd"
+
+#: guiminer.py:1611
+msgid "Start the GUI minimized to the tray."
+msgstr "Start de GUI geminimaliseerd in de startbalk"
+
+#: guiminer.py:1613
+msgid "&Options"
+msgstr "&Opties"
+
+#: guiminer.py:1617
+msgid "&Change language..."
+msgstr "&Verander taal..."
+
+#: guiminer.py:1618
+msgid "Language"
+msgstr "Taal"
+
+#: guiminer.py:1622
+msgid "&Donate 99 cents..."
+msgstr "&Doneer 99cent..."
+
+#: guiminer.py:1622
+msgid "Donate $0.99 USD worth of Bitcoins to support GUIMiner development"
+msgstr "Doneer $0.99 USD aan Bitcoins om de ontwikkeling van GUIMiner te ondersteunen"
+
+#: guiminer.py:1623
+msgid "&Donate"
+msgstr "&Doneer"
+
+#: guiminer.py:1626
+msgid "&About..."
+msgstr "&Over..."
+
+#: guiminer.py:1628
+msgid "&Help"
+msgstr "&Help"
+
+#: guiminer.py:1640
+msgid "Failed to load taskbar icon; continuing."
+msgstr "Taakbalk pictogram laden mislukt; gaat door"
+
+#: guiminer.py:1649
+msgid "OpenCL not found - can't add a OpenCL miner"
+msgstr "OpenCL niet gevonden, kan geen OpenCL miner toevoegen"
+
+#: guiminer.py:1686
+#, python-format
+msgid "GUIMiner - v%s"
+msgstr "GUIMiner - v%s"
+
+#: guiminer.py:1728
+msgid "Name this miner:"
+msgstr "Naam voor deze miner:"
+
+#: guiminer.py:1728
+msgid "New miner"
+msgstr "Nieuwe Miner"
+
+#: guiminer.py:1731
+msgid "Untitled"
+msgstr "Naamloos"
+
+#: guiminer.py:1742
+msgid "External miner (*.exe)|*.exe|(*.py)|*.py"
+msgstr "Externe miner (*.exe)|*.exe|(*.py)|*.py"
+
+#: guiminer.py:1744
+msgid "Select external miner:"
+msgstr "Selecteer externe miner:"
+
+#: guiminer.py:1754
+#, python-format
+msgid "Unsupported external miner %(filename)s. Supported are: %(supported)s"
+msgstr "Niet ondersteunde miner %(filename)s. Ondersteund zijn: %(supported)s"
+
+#: guiminer.py:1756
+msgid "Miner not supported"
+msgstr "Miner is niet ondersteund"
+
+#: guiminer.py:1797
+msgid "Do you want to save changes?"
+msgstr "Veranderingen opslaan?"
+
+#: guiminer.py:1797
+msgid "Save"
+msgstr "Opslaan"
+
+#: guiminer.py:1827
+msgid "Saving: "
+msgstr "Slaat op: "
+
+#: guiminer.py:1833
+#, python-format
+msgid ""
+"Couldn't write save file %s.\n"
+"Check the location is writable."
+msgstr ""
+"%s kon niet worden opgeslagen.\n"
+"Controleer of de lokatie niet op alleen lezen staat!"
+
+#: guiminer.py:1834
+msgid "Save unsuccessful"
+msgstr "Opslaan mislukt"
+
+#: guiminer.py:1836
+#, python-format
+msgid "Profiles saved OK to %s."
+msgstr "Profielen opgeslagen in %s."
+
+#: guiminer.py:1837
+msgid "Save successful"
+msgstr "Opslaan gelukt"
+
+#: guiminer.py:1849
+#, python-format
+msgid "Loaded: %s"
+msgstr "Geladen: %s"
+
+#: guiminer.py:1863
+msgid "Loading profiles will stop any currently running miners. Continue?"
+msgstr "Das Laden von Profilen stoppt alle aktiven Miner. Weiter?"
+
+#: guiminer.py:1864
+msgid "Load profile"
+msgstr "Laad profiel"
+
+#: guiminer.py:1893
+msgid "Select path to Bitcoin.exe"
+msgstr "Pad naar Bitcoin.exe selecteren"
+
+#: guiminer.py:1905
+msgid "About"
+msgstr "Over"
+
+#: guiminer.py:1931
+msgid "Closing this miner will stop it. Continue?"
+msgstr "De miner stopt bij het sluiten. Doorgaan?"
+
+#: guiminer.py:1932
+msgid "Close miner"
+msgstr "Sluit miner"
+
+#: guiminer.py:1961
+#, python-format
+msgid "Couldn't find Bitcoin at %s. Is your path set correctly?"
+msgstr "Kon Bitcoin niet vinden in %s. Klopt deze locatie?"
+
+#: guiminer.py:1962
+msgid "Launch failed"
+msgstr "Opstarten mislukt"
+
+#: guiminer.py:1965
+msgid ""
+"The Bitcoin client will now launch in server mode.\n"
+"Once it connects to the network and downloads the block chain, you can start "
+"a miner in 'solo' mode."
+msgstr "Bitcoin zal nu starten als server.\n"
+"Als deze alle voorbereidingen heeft gedaan zal je kunnen starten in solo modus"
+
+#: guiminer.py:1966
+msgid "Launched ok."
+msgstr "Opstarten gelukt"
+
+#: guiminer.py:1981
+#, python-format
+msgid "%s already exists. Overwrite?"
+msgstr ""
+"%s bestaat al. Overschrijven?"
+
+#: guiminer.py:1982
+msgid "bitcoin.conf already exists."
+msgstr "bitcoin.conf bestaat al."
+
+#: guiminer.py:1987
+msgid "Enter password"
+msgstr "Wachtwoord invoeren"
+
+#: guiminer.py:1997
+msgid "Success"
+msgstr "Succes"
+
+#: guiminer.py:1997
+msgid "Wrote bitcoin config ok."
+msgstr "Bitcoin instellingen succesvol opgeslagen"
+
+#: guiminer.py:2008
+msgid "Console"
+msgstr "Console"
+
+#: guiminer.py:2020
+msgid "Summary"
+msgstr "Overzicht"
+
+#: guiminer.py:2033
+msgid "Rename miner"
+msgstr "Miner hernoemen"
+
+#: guiminer.py:2033
+msgid "Rename to:"
+msgstr "Hernoem naar:"
+
+#: guiminer.py:2038
+msgid "Change language"
+msgstr "Verander taal"
+
+#: guiminer.py:2058
+msgid "Choose language (requires restart to take full effect)"
+msgstr "Verander taal (herstart nodig voor volledig effect)"
+
+#: guiminer.py:2103
+msgid ""
+"Click the link below to log in to the pool and get a special token.\n"
+"This token lets you securely check your balance.\n"
+"To remember this token for the future, save your miner settings."
+msgstr "Klik op onderstaande link om in te loggen in de pool en je code te krijgen.\n"
+"Deze code laat je veilig je saldo controleren.\n"
+"Sla deze code op in je minerinstellingen om hem in het vervolg te onthouden"
+
+#: guiminer.py:2112
+msgid "(Paste token here)"
+msgstr "(Plak code hier)"
+
+#: guiminer.py:2138
+msgid "Copy address to clipboard"
+msgstr "Kopiëer adres naar het plakbord"
+
+#: guiminer.py:2157
+msgid "No OpenCL devices found."
+msgstr "Geen OpenCL onderdelen gevonden"
+
+#: guiminer.py:2160
+msgid ""
+"No OpenCL devices were found.\n"
+" If you only want to mine using CPU or CUDA, you can ignore this message.\n"
+" If you want to mine on ATI graphics cards, you may need to install the ATI "
+"Stream\n"
+" SDK, or your GPU may not support OpenCL."
+msgstr ""
+"Geen OpenCL onderdelen gevonden.\n"
+"Als je wilt minen met je CPU of met CUDA kan je dit bericht nergeren.\n"
+"Als je wilt minen met ATI/AMD kaarten kan het zijn dat je de ATI Stream\n"
+" SDK moet installeren.\n"
+"anders zal je kaart OpenCL niet ondersteunen.\n"
+
+#: guiminer.py:2170
+msgid "Don't show this message again"
+msgstr "Laat dit bericht niet nog een keer zien"

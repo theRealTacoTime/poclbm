@@ -1,0 +1,793 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: guiminer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-14 22:43-0300\n"
+"PO-Revision-Date: 2011-06-14 23:00-0400\n"
+"Last-Translator: Chris MacLeod <ChrisM6794@gmail.com>\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: guiminer.py:90
+#, python-format
+msgid ""
+"GUIMiner\n"
+"\n"
+"Version: %(version)s\n"
+"\n"
+"GUI by Chris 'Kiv' MacLeod\n"
+"Original poclbm miner by m0mchil\n"
+"Original rpcminer by puddinpop\n"
+"\n"
+"Get the source code or file issues at GitHub:\n"
+"    https://github.com/Kiv/poclbm\n"
+"\n"
+"If you enjoyed this software, support its development\n"
+"by donating to:\n"
+"\n"
+"%(address)s\n"
+"\n"
+"Even a single Bitcoin is appreciated and helps motivate\n"
+"further work on this software.\n"
+msgstr ""
+"   \n"
+"\n"
+"   GUIMiner\n"
+"   \n"
+"   Version: %(version)s\n"
+"   \n"
+"   Interface par Chris 'Kiv' MacLeod\n"
+"   Miner poclbm original par m0mchil\n"
+"   Rrpcminer original par puddinpop\n"
+"   \n"
+"   Trouvez le code source sur GitHub:\n"
+"       https://github.com/Kiv/poclbm\n"
+"   \n"
+"   Si ce logiciel vous plaît aidez à son développement\n"
+"   en donnant à :\n"
+"   \n"
+"      %(address)s\n"
+"   \n"
+"   Chaque Bitcoin donné compte et nous motive\n"
+"   pour continuer le travail sur ce logiciel.\n"
+"   \n"
+"   Traduction par Florian Cramoisan. \n"
+"   Signalez toute erreur de traduction à florian.cramoisan@gmail.com.\n"
+"\n"
+"\n"
+
+#: guiminer.py:111
+msgid "Not started"
+msgstr "Non démarré"
+
+#: guiminer.py:112
+msgid "Starting..."
+msgstr "Démarrage..."
+
+#: guiminer.py:113
+msgid "Stopped"
+msgstr "Arrêté"
+
+#: guiminer.py:114
+msgid "Paused"
+msgstr "En pause"
+
+#: guiminer.py:115
+msgid "Start mining!"
+msgstr "Commencer le minage!"
+
+#: guiminer.py:116
+msgid "Stop mining"
+msgstr "Arrêter de miner!"
+
+#: guiminer.py:117
+msgid "Refresh balance"
+msgstr "Raffraîchir la répartition"
+
+#: guiminer.py:118
+msgid "Connection error"
+msgstr "Erreur de connection"
+
+#: guiminer.py:119
+msgid "Username:"
+msgstr "Nom d'utilisateur:"
+
+#: guiminer.py:120
+msgid "Password:"
+msgstr "Mot de passe:"
+
+#: guiminer.py:121
+msgid "Quit this program"
+msgstr "Quitter le programme"
+
+#: guiminer.py:122
+msgid "Show about dialog"
+msgstr "Afficher la boîte de dialogue À Propos"
+
+#: guiminer.py:203
+#, python-format
+msgid "%.1f Ghash/s"
+msgstr "%.1f Ghash/s"
+
+#: guiminer.py:205
+#, python-format
+msgid "%.1f Mhash/s"
+msgstr "%.1f Mhash/s"
+
+#: guiminer.py:207
+msgid "Connecting..."
+msgstr "Connexion en cours..."
+
+#: guiminer.py:209
+#, python-format
+msgid "%d khash/s"
+msgstr "%d khash/s"
+
+#: guiminer.py:233
+#, python-format
+msgid "Requesting balance: %(request)s"
+msgstr "Requête de répartition : %(request)s"
+
+#: guiminer.py:237
+#, python-format
+msgid "Server replied: %(status)s, %(data)s"
+msgstr "Réponse du serveur: %(status)s, %(data)s"
+
+#: guiminer.py:304
+msgid "Miner"
+msgstr "Miner"
+
+#: guiminer.py:305
+msgid "Speed"
+msgstr "Vitesse"
+
+#: guiminer.py:306
+msgid "Accepted"
+msgstr "Accepté"
+
+# Pas totalement sur pour stale, donc si quelqu'un a une idée...
+# Je suis ouvert à toute correction vous pouvez me joindre à l'adresse florian.cramoisan@gmail.com
+# Cordialement Florian Cramoisan
+#: guiminer.py:307
+msgid "Stale"
+msgstr "Périmé (Stale)"
+
+#: guiminer.py:308
+msgid "Start/Stop"
+msgstr "Démarrer/Arrêter"
+
+#: guiminer.py:309
+msgid "Autostart"
+msgstr "Démarrage auto"
+
+#: guiminer.py:393
+msgid "Pause all"
+msgstr "Mettre tout en pause"
+
+#: guiminer.py:395
+msgid "Restore"
+msgstr "Restaurer"
+
+#: guiminer.py:396
+msgid "Close"
+msgstr "Fermer"
+
+#: guiminer.py:452
+#, python-format
+msgid "Listener for \"%s\" started"
+msgstr "Démarrage de l'écoute de \"%s\" "
+
+#: guiminer.py:467
+#, python-format
+msgid "Listener for \"%(name)s\": %(line)s"
+msgstr "Écouteur pour  \"%(name)s\": %(line)s"
+
+#: guiminer.py:470
+#, python-format
+msgid "Listener for \"%s\" shutting down"
+msgstr "Arrêt de l'écoute de  \"%s\" "
+
+#: guiminer.py:516
+msgid "Server:"
+msgstr "Serveur:"
+
+#: guiminer.py:521
+msgid "Website:"
+msgstr "Site Web:"
+
+#: guiminer.py:523
+msgid "Ext. Path:"
+msgstr "Chemin :"
+
+#: guiminer.py:525
+msgid "Host:"
+msgstr "Hôte:"
+
+#: guiminer.py:527
+msgid "Port:"
+msgstr "Port:"
+
+#: guiminer.py:533
+msgid "Device:"
+msgstr "Périphérique:"
+
+#: guiminer.py:534
+msgid "No OpenCL devices"
+msgstr "Aucun périphérique OpenCL"
+
+#: guiminer.py:535
+msgid "Extra flags:"
+msgstr "Paramètres supplémentaires:"
+
+#: guiminer.py:538
+msgid "CPU Affinity:"
+msgstr ""
+
+#: guiminer.py:541
+msgid "Balance:"
+msgstr "Répartition: "
+
+#: guiminer.py:545
+msgid "Withdraw"
+msgstr "Se retirer"
+
+#: guiminer.py:705
+msgid "Default"
+msgstr "Défaut"
+
+#: guiminer.py:756
+msgid "Start"
+msgstr "Démarrer"
+
+#: guiminer.py:756
+msgid "Stop"
+msgstr "Arrêter"
+
+#: guiminer.py:772
+msgid "Connection problems"
+msgstr "Problème lors de la connexion"
+
+#: guiminer.py:931
+msgid "Running command: "
+msgstr "Execution de la commande: "
+
+#: guiminer.py:990
+#, python-format
+msgid "Difficulty 1 hashes: %(nhashes)d %(update_time)s"
+msgstr "Difficulté 1 hash: %(nhashes)d %(update_time)s"
+
+#: guiminer.py:994
+#, python-format
+msgid "Blocks: %d, "
+msgstr "Blocs: %d, "
+
+#: guiminer.py:997
+#, python-format
+msgid "Shares: %d accepted"
+msgstr "Partages: %d accepté"
+
+#: guiminer.py:999
+#, python-format
+msgid ", %d stale/invalid"
+msgstr ", %d est invalide"
+
+#: guiminer.py:1021
+#, python-format
+msgid "- last at %s"
+msgstr "Dernière modification le %s"
+
+#: guiminer.py:1094
+msgid ""
+"Server to connect to. Different servers have different fees and features.\n"
+"Check their websites for full information."
+msgstr ""
+"Serveur auquel se connecter. Chaque serveur à des différentes taxes et options.\n"
+"Regardez leur site pour plus d'informations."
+
+#: guiminer.py:1095
+msgid "Website of the currently selected server. Click to visit."
+msgstr "Site web du serveur selectionné. Cliquez pour le visiter"
+
+#: guiminer.py:1096
+msgid "Available OpenCL devices on your system."
+msgstr "Périphériques OpenCL Disponibles."
+
+#: guiminer.py:1097
+msgid "Host address, without http:// prefix."
+msgstr "Adresse de l'hôte, sans le préfixe http://."
+
+#: guiminer.py:1098
+msgid "Server port. This is usually 8332."
+msgstr "Port du serveur. Habituellement 8332."
+
+#: guiminer.py:1099
+msgid ""
+"The miner's username.\n"
+"May be different than your account username.\n"
+"Example: Kiv.GPU"
+msgstr ""
+"Nom d'uilisateur du miner.\n"
+"Peut différer du nom d'utilisateur de votre compte.\n"
+"Exemple: Kiv.GPU"
+
+#: guiminer.py:1100
+msgid ""
+"The miner's password.\n"
+"May be different than your account password."
+msgstr ""
+"Mot de passe du miner.\n"
+"Peut différer du mot de passe de votre compte."
+
+#: guiminer.py:1101
+msgid ""
+"Extra flags to pass to the miner.\n"
+"For Radeon HD 5xxx series use -v -w128 for best results.\n"
+"For other cards consult the forum."
+msgstr ""
+"Paramètres supplémentaires à passer au miner.\n"
+"Pour les ATI Radéon HD série 5xxx utiliser -v -w128 afin d'optimiser le rendement.\n"
+"Pour les autres cartes, consultez le forum."
+
+#: guiminer.py:1103
+msgid ""
+"CPU cores used for mining.\n"
+"Unchecking some cores can reduce high CPU usage in some systems."
+msgstr ""
+
+#: guiminer.py:1197
+#: guiminer.py:1291
+#: guiminer.py:1312
+msgid "Auth token rejected by server."
+msgstr ""
+
+#: guiminer.py:1215
+#, python-format
+msgid "%s confirmed"
+msgstr "%s confirmé"
+
+#: guiminer.py:1217
+#, python-format
+msgid ", %s unconfirmed"
+msgstr ", %s n'a pas été confirmé"
+
+#: guiminer.py:1219
+msgid "Bad response from server."
+msgstr "Mauvaise réponse du serveur."
+
+#: guiminer.py:1295
+#: guiminer.py:1316
+msgid "Withdraw OK"
+msgstr "Retiré"
+
+#: guiminer.py:1486
+msgid "No registration is required - just enter an address and press Start."
+msgstr "Aucun enregistrement requis, entrez seulement une adresse et cliquez sur Démarrer"
+
+#: guiminer.py:1488
+msgid "Address:"
+msgstr "&Adresse électronique :"
+
+#: guiminer.py:1490
+msgid ""
+"Your receiving address for Bitcoins.\n"
+"E.g.: 1A94cjRpaPBMV9ZNWFihB5rTFEeihBALgc"
+msgstr ""
+"Votre adresse de réception des bitcoins.\n"
+"Example: 1A94cjRpaPBMV9ZNWFihB5rTFEeihBALgc"
+
+#: guiminer.py:1506
+msgid ""
+"Your miner username (not your account username).\n"
+"Example: Kiv.GPU"
+msgstr ""
+"Votre nom d'utilisateur de miner (pas celui de votre compte). \n"
+"Example:kiv.GPU"
+
+#: guiminer.py:1508
+#: guiminer.py:1529
+msgid "Your miner password (not your account password)."
+msgstr "Votre mot de passe de miner (pas celui de votre compte)."
+
+#: guiminer.py:1527
+msgid ""
+"Your miner username. \n"
+"Example: kiv123@kiv123"
+msgstr ""
+"Votre nom d'utilisateur de miner. \n"
+"Example:kiv123@kiv123"
+
+#: guiminer.py:1544
+msgid "The e-mail address you registered with."
+msgstr "L'adresse mail avec laquelle vous vous êtes enregistré."
+
+#: guiminer.py:1545
+msgid "Email:"
+msgstr "Email:"
+
+#: guiminer.py:1560
+msgid "&Rename..."
+msgstr "&Renommer..."
+
+#: guiminer.py:1560
+msgid "Rename this miner"
+msgstr "Renommer le miner"
+
+#: guiminer.py:1585
+msgid "&New OpenCL miner..."
+msgstr "&Nouveau miner OpenCL..."
+
+#: guiminer.py:1585
+msgid "Create a new OpenCL miner (default for ATI cards)"
+msgstr ""
+
+#: guiminer.py:1586
+msgid "Create a new Phoenix miner (for some ATI cards)"
+msgstr ""
+
+#: guiminer.py:1586
+msgid "New Phoenix miner..."
+msgstr ""
+
+#: guiminer.py:1587
+msgid "Create a new CUDA miner (for NVIDIA cards)"
+msgstr ""
+
+#: guiminer.py:1587
+msgid "New CUDA miner..."
+msgstr ""
+
+#: guiminer.py:1588
+msgid "Create a new Ufasoft miner (for CPUs)"
+msgstr ""
+
+#: guiminer.py:1588
+msgid "New Ufasoft CPU miner..."
+msgstr ""
+
+#: guiminer.py:1589
+msgid "Create a new custom miner (requires external program)"
+msgstr ""
+
+#: guiminer.py:1589
+msgid "New &other miner..."
+msgstr "N&ouveau miner..."
+
+#: guiminer.py:1590
+msgid "&New miner"
+msgstr "Nouveau miner"
+
+#: guiminer.py:1591
+msgid "&Save settings"
+msgstr "&Sauver les paramètres"
+
+#: guiminer.py:1591
+msgid "Save your settings"
+msgstr "Sauver vos paramètres"
+
+#: guiminer.py:1592
+msgid "&Load settings"
+msgstr "&Charger les paramètres"
+
+#: guiminer.py:1592
+msgid "Load stored settings"
+msgstr "Charger des paramètres enregistrés"
+
+#: guiminer.py:1593
+msgid "Quit"
+msgstr "Quitter"
+
+#: guiminer.py:1594
+msgid "&File"
+msgstr "&Fichier"
+
+#: guiminer.py:1598
+msgid "Show summary"
+msgstr "Afficher le résumé"
+
+#: guiminer.py:1598
+msgid "Show summary of all miners"
+msgstr "Afficher le résumé pour tous les miners"
+
+#: guiminer.py:1599
+msgid "Show console"
+msgstr "Afficher la console"
+
+#: guiminer.py:1599
+msgid "Show console logs"
+msgstr "Afficher les logs de la console"
+
+#: guiminer.py:1600
+msgid "&View"
+msgstr "&Affichage"
+
+#: guiminer.py:1604
+msgid "&Create solo password..."
+msgstr "&Créer un mot de passe solo..."
+
+#: guiminer.py:1604
+msgid "Configure a user/pass for solo mining"
+msgstr "Veuillez fournir un utilisateur/mot de passe pour le mining en solo"
+
+#: guiminer.py:1605
+msgid "&Set Bitcoin client path..."
+msgstr "&Changer le chemin vers le client Bitcoin..."
+
+#: guiminer.py:1605
+msgid "Set the location of the official Bitcoin client"
+msgstr "Chemin du Bitcoin officiel"
+
+#: guiminer.py:1606
+msgid "&Launch Bitcoin client as server"
+msgstr "&Lancer le client bitcoin en tant que serveur"
+
+#: guiminer.py:1606
+msgid "Launch the official Bitcoin client as a server for solo mining"
+msgstr "Lancer le client Bitcoin officiel pour un minage solo."
+
+#: guiminer.py:1607
+msgid "&Solo utilities"
+msgstr "&Outils solo"
+
+#: guiminer.py:1611
+msgid "Start &minimized"
+msgstr ""
+
+#: guiminer.py:1611
+msgid "Start the GUI minimized to the tray."
+msgstr ""
+
+#: guiminer.py:1613
+msgid "&Options"
+msgstr ""
+
+#: guiminer.py:1617
+msgid "&Change language..."
+msgstr "&Changer de langue..."
+
+#: guiminer.py:1618
+msgid "Language"
+msgstr "Langue"
+
+#: guiminer.py:1622
+msgid "&Donate 99 cents..."
+msgstr ""
+
+#: guiminer.py:1622
+msgid "Donate $0.99 USD worth of Bitcoins to support GUIMiner development"
+msgstr ""
+
+#: guiminer.py:1623
+msgid "&Donate"
+msgstr "Faire un Don"
+
+#: guiminer.py:1626
+msgid "&About..."
+msgstr "A propos"
+
+#: guiminer.py:1628
+msgid "&Help"
+msgstr "&Aide"
+
+#: guiminer.py:1640
+msgid "Failed to load taskbar icon; continuing."
+msgstr "Erreur du chargement de l'icone de notification. L'exécution continue."
+
+#: guiminer.py:1649
+msgid "OpenCL not found - can't add a OpenCL miner"
+msgstr "Impossible de trouver OpenCL : impossible d'ajouter un miner OpenCL"
+
+#: guiminer.py:1686
+#, python-format
+msgid "GUIMiner - v%s"
+msgstr "GUIMiner - v%s"
+
+#: guiminer.py:1728
+msgid "Name this miner:"
+msgstr "Nom du miner:"
+
+#: guiminer.py:1728
+msgid "New miner"
+msgstr "Nouveau miner"
+
+#: guiminer.py:1731
+msgid "Untitled"
+msgstr "Sans titre"
+
+#: guiminer.py:1742
+msgid "External miner (*.exe)|*.exe|(*.py)|*.py"
+msgstr "Miner externe (*.exe)|*.exe|(*.py)|*.py"
+
+#: guiminer.py:1744
+msgid "Select external miner:"
+msgstr "Choisissez un miner externe:"
+
+#: guiminer.py:1754
+#, python-format
+msgid "Unsupported external miner %(filename)s. Supported are: %(supported)s"
+msgstr "Miner externe non supporté %(filename)s. Les miners actuellement supportés sont: %(supported)s"
+
+#: guiminer.py:1756
+msgid "Miner not supported"
+msgstr "Miner non supporté"
+
+#: guiminer.py:1797
+msgid "Do you want to save changes?"
+msgstr "Voulez-vous sauvegarder les modifications ?"
+
+#: guiminer.py:1797
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: guiminer.py:1827
+msgid "Saving: "
+msgstr "Sauvegarde: "
+
+#: guiminer.py:1833
+#, python-format
+msgid ""
+"Couldn't write save file %s.\n"
+"Check the location is writable."
+msgstr ""
+"Impossible d'écrire la sauvegarde dans le fichier %s.\n"
+"Vérifiez l'emplacement."
+
+#: guiminer.py:1834
+msgid "Save unsuccessful"
+msgstr "Echec de la sauvegarde"
+
+#: guiminer.py:1836
+#, python-format
+msgid "Profiles saved OK to %s."
+msgstr "Profil sauvé vers %s."
+
+#: guiminer.py:1837
+msgid "Save successful"
+msgstr "Sauvegarde effectuée"
+
+#: guiminer.py:1849
+#, python-format
+msgid "Loaded: %s"
+msgstr "Chargé: %s"
+
+#: guiminer.py:1863
+msgid "Loading profiles will stop any currently running miners. Continue?"
+msgstr "Charger des profils arrêtera les miners en cours. Continuer ?"
+
+#: guiminer.py:1864
+msgid "Load profile"
+msgstr "Charger un profil"
+
+#: guiminer.py:1893
+msgid "Select path to Bitcoin.exe"
+msgstr "Choisir le chemin vers Bitcoin.exe"
+
+#: guiminer.py:1905
+msgid "About"
+msgstr "&A propos"
+
+#: guiminer.py:1931
+msgid "Closing this miner will stop it. Continue?"
+msgstr "Fermer le miner l'arrêtera. Continuer ?"
+
+#: guiminer.py:1932
+msgid "Close miner"
+msgstr "Fermer le miner"
+
+#: guiminer.py:1961
+#, python-format
+msgid "Couldn't find Bitcoin at %s. Is your path set correctly?"
+msgstr "Impossible de trouver bitcoin au chemin %s. Vérifiez que le chemin a bien été paramétré."
+
+#: guiminer.py:1962
+msgid "Launch failed"
+msgstr "Erreur de lancement"
+
+#: guiminer.py:1965
+msgid ""
+"The Bitcoin client will now launch in server mode.\n"
+"Once it connects to the network and downloads the block chain, you can start a miner in 'solo' mode."
+msgstr ""
+
+#: guiminer.py:1966
+msgid "Launched ok."
+msgstr "Lancement réussi."
+
+#: guiminer.py:1981
+#, python-format
+msgid "%s already exists. Overwrite?"
+msgstr "%s Existe déjà. L'écraser ?"
+
+#: guiminer.py:1982
+msgid "bitcoin.conf already exists."
+msgstr "bitcoin.conf existe déjà."
+
+#: guiminer.py:1987
+msgid "Enter password"
+msgstr "Entrez le mot de passe"
+
+#: guiminer.py:1997
+msgid "Success"
+msgstr "Succès"
+
+#: guiminer.py:1997
+msgid "Wrote bitcoin config ok."
+msgstr "Écriture de la configuration bitcoin réussie."
+
+#: guiminer.py:2008
+msgid "Console"
+msgstr "Console"
+
+#: guiminer.py:2020
+msgid "Summary"
+msgstr "Résumé"
+
+#: guiminer.py:2033
+msgid "Rename miner"
+msgstr "Renommer le miner"
+
+#: guiminer.py:2033
+msgid "Rename to:"
+msgstr "Renommer :"
+
+#: guiminer.py:2038
+msgid "Change language"
+msgstr "Changer de langue"
+
+#: guiminer.py:2058
+msgid "Choose language (requires restart to take full effect)"
+msgstr "Choisissez une langue (Requiert un redémarrage)"
+
+#: guiminer.py:2103
+msgid ""
+"Click the link below to log in to the pool and get a special token.\n"
+"This token lets you securely check your balance.\n"
+"To remember this token for the future, save your miner settings."
+msgstr ""
+
+#: guiminer.py:2112
+msgid "(Paste token here)"
+msgstr "(Coller le jeton ici)"
+
+#: guiminer.py:2138
+msgid "Copy address to clipboard"
+msgstr "Copier l'adresse dans le presse-papier"
+
+#: guiminer.py:2157
+msgid "No OpenCL devices found."
+msgstr "Aucun périphérique OpenCL touvé."
+
+#: guiminer.py:2160
+msgid ""
+"No OpenCL devices were found.\n"
+" If you only want to mine using CPU or CUDA, you can ignore this message.\n"
+" If you want to mine on ATI graphics cards, you may need to install the ATI Stream\n"
+" SDK, or your GPU may not support OpenCL."
+msgstr ""
+"Aucun périphérique OpenCL n'a été trouvé.\n"
+"   Si vous souhaitez seulement miner avec CPU ou CUDA, ignorez ce message.\n"
+"   Si vous souhaitez miner avec une carte ATI, vous devez installer ATI Stream\n"
+"   SDK (2.1 de préférence), sinon il se peut que votre GPU ne supporte pas OpenCL."
+
+#: guiminer.py:2170
+msgid "Don't show this message again"
+msgstr ""
+
+#~ msgid ""
+#~ "Click the link below to log in to the pool and get a special token. \n"
+#~ "This token lets you securely check your balance.\n"
+#~ "To remember this token for the future, save your miner settings."
+#~ msgstr ""
+#~ "Cliquez sur le lien ci-dessous pour vous connecter et obtenir un jeton "
+#~ "(API token). \n"
+#~ "Ce jeton vous permettra de vérifier votre répartition de manière "
+#~ "sécurisée.\n"
+#~ "Pour se souvenir de ce jeton, sauvegardez les paramètres."
+
+#~ msgid ""
+#~ "Client launched ok. You can start a miner now with the server set to "
+#~ "'solo'."
+#~ msgstr ""
+#~ "Client lancé. Vous pouvez maintenant lancer un miner sur le serveur "
+#~ "'solo'."

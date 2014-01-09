@@ -1,0 +1,766 @@
+# Esperanto translation for GUIMiner
+# Copyright (C) 2012 Colin Dean
+# This file is distributed under the same license as the GUIMiner package.
+# Colin Dean (Kaŭlen DIN) <git@cad.cx>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GUIMiner\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-14 23:10-0300\n"
+"PO-Revision-Date: 2012-09-04 10:36-0500\n"
+"Last-Translator: Colin Dean <git@cad.cx>\n"
+"Language-Team: Esperanto <git@cad.cx>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Esperanto\n"
+
+#: guiminer.py:90
+#, python-format
+msgid ""
+"GUIMiner\n"
+"\n"
+"Version: %(version)s\n"
+"\n"
+"GUI by Chris 'Kiv' MacLeod\n"
+"Original poclbm miner by m0mchil\n"
+"Original rpcminer by puddinpop\n"
+"\n"
+"Get the source code or file issues at GitHub:\n"
+"    https://github.com/Kiv/poclbm\n"
+"\n"
+"If you enjoyed this software, support its development\n"
+"by donating to:\n"
+"\n"
+"%(address)s\n"
+"\n"
+"Even a single Bitcoin is appreciated and helps motivate\n"
+"further work on this software.\n"
+msgstr ""
+"GUIMinder\n"
+"\n"
+"Versio: %(version)s\n"
+"\n"
+"Grafika interfaco de Chris 'Kiv' MACLEOD\n"
+"Originala poclbm minilo de m0mchil\n"
+"Originalo rpcminer de puddinpop\b\bAkiru la fontkodo aŭ enarkivigi atentindaĵojn ĉe Github:\n"
+"   https://github.com/Kib/poclbm\n"
+"\n"
+
+#: guiminer.py:111
+msgid "Not started"
+msgstr "Ne komencita"
+
+#: guiminer.py:112
+msgid "Starting..."
+msgstr "Komencanta..."
+
+#: guiminer.py:113
+msgid "Stopped"
+msgstr "Haltita"
+
+#: guiminer.py:114
+msgid "Paused"
+msgstr "Paŭzigita"
+
+#: guiminer.py:115
+msgid "Start mining!"
+msgstr "Komenci minadon!"
+
+#: guiminer.py:116
+msgid "Stop mining"
+msgstr "Halti minadon"
+
+#: guiminer.py:117
+msgid "Refresh balance"
+msgstr "Aktualigi bilancon"
+
+#: guiminer.py:118
+msgid "Connection error"
+msgstr "Konekta eraro"
+
+#: guiminer.py:119
+msgid "Username:"
+msgstr "Uzantnomo:"
+
+#: guiminer.py:120
+msgid "Password:"
+msgstr "Pasvorto:"
+
+#: guiminer.py:121
+msgid "Quit this program"
+msgstr "Forlasi"
+
+#: guiminer.py:122
+msgid "Show about dialog"
+msgstr "Montri pridialogujon"
+
+#: guiminer.py:203
+#, python-format
+msgid "%.1f Ghash/s"
+msgstr "%.1f Ghak/s"
+
+#: guiminer.py:205
+#, python-format
+msgid "%.1f Mhash/s"
+msgstr " %.1f Mhak/s"
+
+#: guiminer.py:207
+msgid "Connecting..."
+msgstr "Konekanta..."
+
+#: guiminer.py:209
+#, python-format
+msgid "%d khash/s"
+msgstr "%d khak/s"
+
+#: guiminer.py:233
+#, python-format
+msgid "Requesting balance: %(request)s"
+msgstr "Petanta bilancon: %(request)s"
+
+#: guiminer.py:237
+#, python-format
+msgid "Server replied: %(status)s, %(data)s"
+msgstr "Servilo respondita: %(status)s, %(data)s"
+
+#: guiminer.py:304
+msgid "Miner"
+msgstr "Minilo"
+
+#: guiminer.py:305
+msgid "Speed"
+msgstr "Rapido"
+
+#: guiminer.py:306
+msgid "Accepted"
+msgstr "Akceptita"
+
+#: guiminer.py:307
+msgid "Stale"
+msgstr "Malfreŝa"
+
+#: guiminer.py:308
+msgid "Start/Stop"
+msgstr "Eki/Halti"
+
+#: guiminer.py:309
+msgid "Autostart"
+msgstr "Memlanĉo"
+
+#: guiminer.py:393
+msgid "Pause all"
+msgstr "Paŭzigi ĉia"
+
+#: guiminer.py:395
+msgid "Restore"
+msgstr "Restaŭri"
+
+#: guiminer.py:396
+msgid "Close"
+msgstr "Fermi"
+
+#: guiminer.py:452
+#, python-format
+msgid "Listener for \"%s\" started"
+msgstr "Aŭskultanto por \"%s\" komencita"
+
+#: guiminer.py:467
+#, python-format
+msgid "Listener for \"%(name)s\": %(line)s"
+msgstr "Aŭskultanto por \"%(name)s\": %(line)s"
+
+#: guiminer.py:470
+#, python-format
+msgid "Listener for \"%s\" shutting down"
+msgstr "Aŭskultanto por \"%s\" malŝaltanta"
+
+#: guiminer.py:516
+msgid "Server:"
+msgstr "Servil"
+
+#: guiminer.py:521
+msgid "Website:"
+msgstr "TTT-ejo:"
+
+#: guiminer.py:523
+msgid "Ext. Path:"
+msgstr "Ekst. vojo:"
+
+#: guiminer.py:525
+msgid "Host:"
+msgstr "Gastiga komputilo:"
+
+#: guiminer.py:527
+msgid "Port:"
+msgstr "Pordo:"
+
+#: guiminer.py:533
+msgid "Device:"
+msgstr "Aparato:"
+
+#: guiminer.py:534
+msgid "No OpenCL devices"
+msgstr "Ne OpenCL-aj aparatoj"
+
+#: guiminer.py:535
+msgid "Extra flags:"
+msgstr "Kroma flagoj:"
+
+#: guiminer.py:538
+msgid "CPU Affinity:"
+msgstr "CPU-a afineco:"
+
+#: guiminer.py:541
+msgid "Balance:"
+msgstr "Bilanco:"
+
+#: guiminer.py:545
+msgid "Withdraw"
+msgstr "Repreni"
+
+#: guiminer.py:705
+msgid "Default"
+msgstr "Defaŭlta"
+
+#: guiminer.py:756
+msgid "Start"
+msgstr "Komenci"
+
+#: guiminer.py:756
+msgid "Stop"
+msgstr "Halti"
+
+#: guiminer.py:772
+msgid "Connection problems"
+msgstr "Konektaj problemoj"
+
+#: guiminer.py:931
+msgid "Running command: "
+msgstr "Plenumanta komando:"
+
+#: guiminer.py:990
+#, python-format
+msgid "Difficulty 1 hashes: %(nhashes)d %(update_time)s"
+msgstr "Malfacileco 1 haketoj: %(nhashes)d %(update_time)s"
+
+#: guiminer.py:994
+#, python-format
+msgid "Blocks: %d, "
+msgstr "Blokoj: %d,"
+
+#: guiminer.py:997
+#, python-format
+msgid "Shares: %d accepted"
+msgstr "Partoj: %d akceptita"
+
+#: guiminer.py:999
+#, python-format
+msgid ", %d stale/invalid"
+msgstr ", %d malfreŝa/malvalida"
+
+#: guiminer.py:1021
+#, python-format
+msgid "- last at %s"
+msgstr "- lasta ĉe %s"
+
+#: guiminer.py:1094
+msgid ""
+"Server to connect to. Different servers have different fees and features.\n"
+"Check their websites for full information."
+msgstr ""
+"Servilo konektiĝi. Diferencaj serviloj havas diferencaj honorarioj kaj trajtoj.\n"
+"Konsilu ilin TTT-ejojn por plu informo."
+
+#: guiminer.py:1095
+msgid "Website of the currently selected server. Click to visit."
+msgstr "TTT-ejo de la nuna elektita servilo. Klaku viziti."
+
+#: guiminer.py:1096
+msgid "Available OpenCL devices on your system."
+msgstr "Disponeblaj OpenCL-aj aparatoj en via sistemo."
+
+#: guiminer.py:1097
+msgid "Host address, without http:// prefix."
+msgstr "Gastiga adreso, sen \"http://\" prefikso."
+
+#: guiminer.py:1098
+msgid "Server port. This is usually 8332."
+msgstr "Servpordo. Estas kutime 8332."
+
+#: guiminer.py:1099
+msgid ""
+"The miner's username.\n"
+"May be different than your account username.\n"
+"Example: Kiv.GPU"
+msgstr ""
+"La uzantnomo de la minilo.\n"
+"Povas esti diferenca ol via konta uzantnomo.\n"
+"Ekz.: Kiv.GPU"
+
+#: guiminer.py:1100
+msgid ""
+"The miner's password.\n"
+"May be different than your account password."
+msgstr ""
+"La pasvorto de la minilo.\n"
+"Povas esti diferenca ol via kontpasvorto."
+
+#: guiminer.py:1101
+msgid ""
+"Extra flags to pass to the miner.\n"
+"For Radeon HD 5xxx series use -v -w128 for best results.\n"
+"For other cards consult the forum."
+msgstr ""
+"Eksteraj flagoj transdoni al la minilo.\bPor Radeon HD 5xxx serio, uzu '-v -w 128' por plej bonaj rezultoj.\n"
+"Por aliaj kartaj, konsilu la forumon."
+
+#: guiminer.py:1103
+msgid ""
+"CPU cores used for mining.\n"
+"Unchecking some cores can reduce high CPU usage in some systems."
+msgstr ""
+"Ĉefprocesoraj kernoj uzita por minado.\n"
+"Malselektado de iuj kernoj povas redukti alta ĉefprocesora uzado en iuj sistemoj."
+
+#: guiminer.py:1197
+#: guiminer.py:1291
+#: guiminer.py:1312
+msgid "Auth token rejected by server."
+msgstr "Servilo rifuzis aŭtentokontrolan ĵetonon."
+
+#: guiminer.py:1215
+#, python-format
+msgid "%s confirmed"
+msgstr "%s konfirmita"
+
+#: guiminer.py:1217
+#, python-format
+msgid ", %s unconfirmed"
+msgstr ", %s nekonfirmira"
+
+#: guiminer.py:1219
+msgid "Bad response from server."
+msgstr "Servilo sendis malbonan respondon."
+
+#: guiminer.py:1295
+#: guiminer.py:1316
+msgid "Withdraw OK"
+msgstr "Repreni okej"
+
+#: guiminer.py:1486
+msgid "No registration is required - just enter an address and press Start."
+msgstr "Registrado ne estas postulata - enigu adreson kaj klaku \"Komenci\"."
+
+#: guiminer.py:1488
+msgid "Address:"
+msgstr "Adreso:"
+
+#: guiminer.py:1490
+msgid ""
+"Your receiving address for Bitcoins.\n"
+"E.g.: 1A94cjRpaPBMV9ZNWFihB5rTFEeihBALgc"
+msgstr ""
+"Via ricevanta adreso por bitmonoj.\n"
+"E.g.: 1Q9nXGeq1y1Xfc4JMdPJKGikLY44UGC9LU"
+
+#: guiminer.py:1506
+msgid ""
+"Your miner username (not your account username).\n"
+"Example: Kiv.GPU"
+msgstr ""
+"Uzantnomo por la minilo (ne via konta uzantnomo).\n"
+"Ekz.: Kiv.GPU"
+
+#: guiminer.py:1508
+#: guiminer.py:1529
+msgid "Your miner password (not your account password)."
+msgstr "Pasvorto por la minilo (ne via konta pasvorto)."
+
+#: guiminer.py:1527
+msgid ""
+"Your miner username. \n"
+"Example: kiv123@kiv123"
+msgstr ""
+"Via uzantnomo por la minilo. \n"
+"Ekz. kiv123@kiv123"
+
+#: guiminer.py:1544
+msgid "The e-mail address you registered with."
+msgstr "La retadreso uzita registri."
+
+#: guiminer.py:1545
+msgid "Email:"
+msgstr "Retpoŝtadreso:"
+
+#: guiminer.py:1560
+msgid "&Rename..."
+msgstr "&Renomi..."
+
+#: guiminer.py:1560
+msgid "Rename this miner"
+msgstr "Renomi tiun minilon"
+
+#: guiminer.py:1585
+msgid "&New OpenCL miner..."
+msgstr "&Nova OpenCL-an minilo..."
+
+#: guiminer.py:1585
+msgid "Create a new OpenCL miner (default for ATI cards)"
+msgstr "Krei novan OpenCL-an minilon (defaŭlta por ATI-aj vidkartoj)"
+
+#: guiminer.py:1586
+msgid "Create a new Phoenix miner (for some ATI cards)"
+msgstr "Krei novan Phoenix-an minilon (por iuj ATI-aj vidkartoj)"
+
+#: guiminer.py:1586
+msgid "New Phoenix miner..."
+msgstr "Nova Phoenix minilo..."
+
+#: guiminer.py:1587
+msgid "Create a new CUDA miner (for NVIDIA cards)"
+msgstr "Krei novan CUDA-an minilon (por NVIDIA-aj vidkartoj)"
+
+#: guiminer.py:1587
+msgid "New CUDA miner..."
+msgstr "Nova CUDA minilo..."
+
+#: guiminer.py:1588
+msgid "Create a new Ufasoft miner (for CPUs)"
+msgstr "Krei novan Ufasoft-an minilon (por ĉefprocesoroj)"
+
+#: guiminer.py:1588
+msgid "New Ufasoft CPU miner..."
+msgstr "Nova Ufasoft-a ĉefprocesora minilo..."
+
+#: guiminer.py:1589
+msgid "Create a new custom miner (requires external program)"
+msgstr "Krei novan tajloritan minilon (postulas eksteran programon)"
+
+#: guiminer.py:1589
+msgid "New &other miner..."
+msgstr "N&ova alia minilo..."
+
+#: guiminer.py:1590
+msgid "&New miner"
+msgstr "&Nova minilo"
+
+#: guiminer.py:1591
+msgid "&Save settings"
+msgstr "&Savi agorgojn"
+
+#: guiminer.py:1591
+msgid "Save your settings"
+msgstr "&Savi viajn agorgojn"
+
+#: guiminer.py:1592
+msgid "&Load settings"
+msgstr "&Ŝargi agordojn"
+
+#: guiminer.py:1592
+msgid "Load stored settings"
+msgstr "Ŝargi savitajn agordojn"
+
+#: guiminer.py:1593
+msgid "Quit"
+msgstr "Forlasi"
+
+#: guiminer.py:1594
+msgid "&File"
+msgstr "&Dosiero"
+
+#: guiminer.py:1598
+msgid "Show summary"
+msgstr "Montri resumon"
+
+#: guiminer.py:1598
+msgid "Show summary of all miners"
+msgstr "Montri resumon de ĉiaj miniloj"
+
+#: guiminer.py:1599
+msgid "Show console"
+msgstr "Montri konzolon"
+
+#: guiminer.py:1599
+msgid "Show console logs"
+msgstr "Montri konzolajn protokolajn dosierojn"
+
+#: guiminer.py:1600
+msgid "&View"
+msgstr "&Vido"
+
+#: guiminer.py:1604
+msgid "&Create solo password..."
+msgstr "&Krei pasvorton por solaminado..."
+
+#: guiminer.py:1604
+msgid "Configure a user/pass for solo mining"
+msgstr "Konfiguri uzantnomon/pasvorton por solaminado"
+
+#: guiminer.py:1605
+msgid "&Set Bitcoin client path..."
+msgstr "&Agordi vojon al bitmona kliento..."
+
+#: guiminer.py:1605
+msgid "Set the location of the official Bitcoin client"
+msgstr "&Agordi lokon de la oficiala bitmona kliento..."
+
+#: guiminer.py:1606
+msgid "&Launch Bitcoin client as server"
+msgstr "&Lanĉi bitmonan klienton kiel servilo"
+
+#: guiminer.py:1606
+msgid "Launch the official Bitcoin client as a server for solo mining"
+msgstr "&Lanĉi oficiala bitmonan klienton kiel servilo por sola minado"
+
+#: guiminer.py:1607
+msgid "&Solo utilities"
+msgstr "&Solaminada utilaĵo"
+
+#: guiminer.py:1611
+msgid "Start &minimized"
+msgstr "Startigi plej&etigita"
+
+#: guiminer.py:1611
+msgid "Start the GUI minimized to the tray."
+msgstr "Startigi grafikan interfacon plej&etigite al la taskopleto"
+
+#: guiminer.py:1613
+msgid "&Options"
+msgstr "&Agordoj..."
+
+#: guiminer.py:1617
+msgid "&Change language..."
+msgstr "&Ŝanĝi lingvon..."
+
+#: guiminer.py:1618
+msgid "Language"
+msgstr "Lingvo"
+
+#: guiminer.py:1622
+msgid "&Donate 99 cents..."
+msgstr "&Doni 99-aj cendoj..."
+
+#: guiminer.py:1622
+msgid "Donate $0.99 USD worth of Bitcoins to support GUIMiner development"
+msgstr "Doni $0.99 USD en Bitmono subteni programado de GUIMiner"
+
+#: guiminer.py:1623
+msgid "&Donate"
+msgstr "&Doni"
+
+#: guiminer.py:1626
+msgid "&About..."
+msgstr "&Pri..."
+
+#: guiminer.py:1628
+msgid "&Help"
+msgstr "&Helpi"
+
+#: guiminer.py:1640
+msgid "Failed to load taskbar icon; continuing."
+msgstr "Fiaskis ŝargi taskopleta bildsimbolo; kontinuanta."
+
+#: guiminer.py:1649
+msgid "OpenCL not found - can't add a OpenCL miner"
+msgstr "OpenCL-a ne trovita - malpovas aldoni OpenCL-an minilon"
+
+#: guiminer.py:1686
+#, python-format
+msgid "GUIMiner - v%s"
+msgstr "GUIMiner - v%s"
+
+#: guiminer.py:1728
+msgid "Name this miner:"
+msgstr "Nomu tiun minilon:"
+
+#: guiminer.py:1728
+msgid "New miner"
+msgstr "Nova minilo"
+
+#: guiminer.py:1731
+msgid "Untitled"
+msgstr "Sentitola"
+
+#: guiminer.py:1742
+msgid "External miner (*.exe)|*.exe|(*.py)|*.py"
+msgstr "Ekstera minilo (*.exe)|*.exe|(*.py)|*.py"
+
+#: guiminer.py:1744
+msgid "Select external miner:"
+msgstr "Elektu eksteran minilon:"
+
+#: guiminer.py:1754
+#, python-format
+msgid "Unsupported external miner %(filename)s. Supported are: %(supported)s"
+msgstr "Malsubtenata ekstera minilo %(filename)s. Subtenata estas: %(supported)s"
+
+#: guiminer.py:1756
+msgid "Miner not supported"
+msgstr "Minilo malsubtenata"
+
+#: guiminer.py:1797
+msgid "Do you want to save changes?"
+msgstr "Ĉu vi volas savi ŝanĝojn?"
+
+#: guiminer.py:1797
+msgid "Save"
+msgstr "Savi"
+
+#: guiminer.py:1827
+msgid "Saving: "
+msgstr "Savanta:"
+
+#: guiminer.py:1833
+#, python-format
+msgid ""
+"Couldn't write save file %s.\n"
+"Check the location is writable."
+msgstr ""
+"Nepovas skribi savdosiero %s.\n"
+"Certigu ke, loko estas skribebla."
+
+#: guiminer.py:1834
+msgid "Save unsuccessful"
+msgstr "Savita malsukcese"
+
+#: guiminer.py:1836
+#, python-format
+msgid "Profiles saved OK to %s."
+msgstr "Profiloj savis sukcese al %s."
+
+#: guiminer.py:1837
+msgid "Save successful"
+msgstr "Savita sukcese"
+
+#: guiminer.py:1849
+#, python-format
+msgid "Loaded: %s"
+msgstr "Ŝargita: %s"
+
+#: guiminer.py:1863
+msgid "Loading profiles will stop any currently running miners. Continue?"
+msgstr "Ŝargado de profiloj haltos ajnaj nunaj funkciantaj miniloj. Daŭrigi?"
+
+#: guiminer.py:1864
+msgid "Load profile"
+msgstr "Ŝargi profilon"
+
+#: guiminer.py:1893
+msgid "Select path to Bitcoin.exe"
+msgstr "Elekti vojon al Bitcoin.exe"
+
+#: guiminer.py:1905
+msgid "About"
+msgstr "Pri"
+
+#: guiminer.py:1931
+msgid "Closing this miner will stop it. Continue?"
+msgstr "Fermi tiun minilo ĉesos ĝin. Kontinuu?"
+
+#: guiminer.py:1932
+msgid "Close miner"
+msgstr "Malfermi minilon"
+
+#: guiminer.py:1961
+#, python-format
+msgid "Couldn't find Bitcoin at %s. Is your path set correctly?"
+msgstr "Ne povas trovi Bitcoin.exe ĉe %s. Certigu ke, ĝia vojo estas ĝusta."
+
+#: guiminer.py:1962
+msgid "Launch failed"
+msgstr "Lanĉo fiaskita"
+
+#: guiminer.py:1965
+msgid ""
+"The Bitcoin client will now launch in server mode.\n"
+"Once it connects to the network and downloads the block chain, you can start a miner in 'solo' mode."
+msgstr ""
+"La bitmona kliento lanĉos nun en servila reĝimo.\n"
+"Unufoje ĝi konektas al via reto kaj elŝutas via blokĉeno, vi povas startigi minilon in 'sola' reĝimo."
+
+#: guiminer.py:1966
+msgid "Launched ok."
+msgstr "Lanĉo sukcese"
+
+#: guiminer.py:1981
+#, python-format
+msgid "%s already exists. Overwrite?"
+msgstr "%s ekzistas jam. Anstataŭigu?"
+
+#: guiminer.py:1982
+msgid "bitcoin.conf already exists."
+msgstr "bitcoin.conf ekzistas jam."
+
+#: guiminer.py:1987
+msgid "Enter password"
+msgstr "Tajpu pasvorton"
+
+#: guiminer.py:1997
+msgid "Success"
+msgstr "Sukcesa"
+
+#: guiminer.py:1997
+msgid "Wrote bitcoin config ok."
+msgstr "Skribis bitmona agordo sukcese."
+
+#: guiminer.py:2008
+msgid "Console"
+msgstr "Konzolo"
+
+#: guiminer.py:2020
+msgid "Summary"
+msgstr "Resumo"
+
+#: guiminer.py:2033
+msgid "Rename miner"
+msgstr "Renomi minolon"
+
+#: guiminer.py:2033
+msgid "Rename to:"
+msgstr "Renomu kiel:"
+
+#: guiminer.py:2038
+msgid "Change language"
+msgstr "Ŝanĝi lingvon"
+
+#: guiminer.py:2058
+msgid "Choose language (requires restart to take full effect)"
+msgstr "Agordi lingvon (postulas restarton efektiviĝi)"
+
+#: guiminer.py:2103
+msgid ""
+"Click the link below to log in to the pool and get a special token.\n"
+"This token lets you securely check your balance.\n"
+"To remember this token for the future, save your miner settings."
+msgstr "Klaku ligilon malsupre ensaluti la grupon kaj akiri apartan ĵetonon."
+
+#: guiminer.py:2112
+msgid "(Paste token here)"
+msgstr "(Algluu ĵetono ĉi)"
+
+#: guiminer.py:2138
+msgid "Copy address to clipboard"
+msgstr "Kopii adreso al tondejo"
+
+#: guiminer.py:2157
+msgid "No OpenCL devices found."
+msgstr "Ne OpenCL-aj aparatoj trovitaj."
+
+#: guiminer.py:2160
+msgid ""
+"No OpenCL devices were found.\n"
+" If you only want to mine using CPU or CUDA, you can ignore this message.\n"
+" If you want to mine on ATI graphics cards, you may need to install the ATI Stream\n"
+" SDK, or your GPU may not support OpenCL."
+msgstr ""
+"Ne OpenCL-aj aparatoj trovitaj.\n"
+"Se vi deziras sole mini de uzado ĉefprocezoro aŭ CUDA, ignoru tiun mesaĝon.\n"
+"Se vi deziras mini de uzado ATI-aj vidkartoj, vi eblas ke, vi bezonos instali la \n"
+"\"ATI Stream SDK\", aŭ eblas ke, via vidkarto ne subtenas OpenCL-on."
+
+#: guiminer.py:2170
+msgid "Don't show this message again"
+msgstr "Ne remontru tiun mesaĝon. "
+
